@@ -10,7 +10,7 @@
 ## AGENDA NOTIFICATIONS SETUP
 
 
-I) Setting Up User Properties ----------------
+#### I) Setting Up User Properties
 1. Open this [https://script.google.com/d/1JhJC2Ku_bBfxa0C1rgN5JCBSKW7oAZa9GGL1zuOsRtagAel2rJ7-vnFC/edit](Google App Script)
 1. Go to File > Project Properties > User Properties
 2. Click Add Row
@@ -22,13 +22,13 @@ I) Setting Up User Properties ----------------
    - Fill name with: SLACK_WEBHOOK_URL
    - Press on the value column and paste your slack Webhook Url (if you don't have one or know how to create one, follow the instructions below)
    
-II) Testing it out ----------------
+#### II) Testing it out ----------------
    - Press on the scripts.gs file (on the left sidebar)
    - Press on the "Select Function" Dropdown on the top toolbar > Select the function "sendEventsForToday"
    - Now press the ▸ button next to the functions selector. 
    - If everything went well you will have received a Slack Notification. If not, review the User properties step
 
-III) Setting up daily triggers
+#### III) Setting up daily triggers
 - Go to the menu Edit > Current Project's Triggers
 - Add a new trigger. Set is as:  time-driven / Day Timer / 7a-8m (or whatever time works best for you)
 - You're set!
